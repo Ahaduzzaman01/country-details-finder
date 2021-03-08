@@ -12,7 +12,7 @@ const CountryDetails = () => {
       fetch(url)
       .then(res => res.json())
       .then(data => setCountries(data))
-    }, [countryName])
+    }, [])
 
     const targetedCountry = countries.find(country => country.name === countryName)
     console.log(targetedCountry)
