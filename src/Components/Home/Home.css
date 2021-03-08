@@ -1,0 +1,8 @@
+.main-country-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 76%;
+    margin: auto;
+    padding-top: 5%;
+}
